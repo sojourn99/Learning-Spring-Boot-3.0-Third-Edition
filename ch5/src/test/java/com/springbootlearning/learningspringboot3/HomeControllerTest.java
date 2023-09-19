@@ -58,4 +58,15 @@ public class HomeControllerTest {
         "new desc"), //
       "user");
   }
+
+  @Test
+  @WithMockUser
+  void deleteVideoShouldWork() throws Exception {
+    mvc.perform(
+      post("/delete/videos/1")
+      .with(csrf()))
+      .andExpect(redirectedUrl("/"));
+
+    verify(videoService).delete(1L);
+  }
 }
