@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Chapter10Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter10Application",
+            "projectName": "ch10"
+        },
+        {
+            "type": "java",
+            "name": "Chapter2Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter2Application",
+            "projectName": "ch2"
+        },
+        {
+            "type": "java",
+            "name": "Chapter3Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter3Application",
+            "projectName": "ch3"
+        },
+        {
+            "type": "java",
+            "name": "Chapter4Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter4Application",
+            "projectName": "ch4-method-security"
+        },
+        {
+            "type": "java",
+            "name": "Chapter4Application(1)",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter4Application",
+            "projectName": "ch4-oauth"
+        },
+        {
+            "type": "java",
+            "name": "Chapter4Application(2)",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter4Application",
+            "projectName": "ch4"
+        },
+        {
+            "type": "java",
+            "name": "Chapter5Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter5Application",
+            "projectName": "ch5"
+        },
+        {
+            "type": "java",
+            "name": "Chapter6Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter6Application",
+            "projectName": "ch6",
+            "vmArgs": "-Dspring.profiles.active=test"
+        },
+        {
+            "type": "java",
+            "name": "Chapter7Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter7Application",
+            "projectName": "ch7"
+        },
+        {
+            "type": "java",
+            "name": "Chapter8Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter8Application",
+            "projectName": "ch8"
+        },
+        {
+            "type": "java",
+            "name": "Chapter9Application",
+            "request": "launch",
+            "mainClass": "com.springbootlearning.learningspringboot3.Chapter9Application",
+            "projectName": "ch9"
+        }
+    ]
+}

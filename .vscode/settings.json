@@ -1,0 +1,22 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-1.8",
+          "path": "C:/Users/M52A732/dev/java/jdk1.8.0_333"
+        },
+        {
+          "name": "JavaSE-11",
+          "path": "C:/Users/M52A732/dev/java/jdk-11.0.15.1",
+          "sources" : "C:/Users/M52A732/dev/java/jdk-11.0.15.1/lib/src.zip",
+          "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api"
+         },
+         {
+          "name": "JavaSE-17",
+          "path": "C:/Users/M52A732/dev/java/jdk-17.0.3.1",
+          "sources" : "C:/Users/M52A732/dev/java/jdk-17.0.3.1/lib/src.zip",
+          "javadoc" : "https://docs.oracle.com/en/java/javase/17/docs/api",
+          "default":  true
+         }
+      ]
+}
